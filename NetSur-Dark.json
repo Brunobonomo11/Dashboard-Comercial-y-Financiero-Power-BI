@@ -1,0 +1,115 @@
+{
+  "name": "NetSur Dark",
+  "dataColors": [
+    "#22D3EE",
+    "#22C55E",
+    "#FACC15",
+    "#F87171",
+    "#38BDF8",
+    "#A78BFA",
+    "#FB923C",
+    "#94A3B8"
+  ],
+  "background": "#1E293B",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#22D3EE",
+  "good": "#22C55E",
+  "neutral": "#FACC15",
+  "bad": "#F87171",
+  "maximum": "#22C55E",
+  "center": "#FACC15",
+  "minimum": "#F87171",
+  "null": "#94A3B8",
+  "firstLevelElements": "#F8FAFC",
+  "secondLevelElements": "#CBD5E1",
+  "thirdLevelElements": "#334155",
+  "fourthLevelElements": "#475569",
+  "secondaryBackground": "#263548",
+  "backgroundLight": "#263548",
+  "backgroundNeutral": "#334155",
+  "textClasses": {
+    "callout": {
+      "fontSize": 26,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#22D3EE"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#CBD5E1"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#CBD5E1"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1E293B"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#334155"
+              }
+            },
+            "radius": 10
+          }
+        ],
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#22D3EE"
+              }
+            },
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#111827"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B1220"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
